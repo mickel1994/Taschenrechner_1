@@ -6,24 +6,40 @@ namespace Taschenrechner_Iteratrion_1
     class Program
     {
         static void Main(string[] args)
+
         {
-            //  User Story "Addieren": Als Benutzer möchte ich zwei Zahlen eingeben, um deren Summe berechnen zu lassen
-            Console.Write("Bitte gib den ersten Summanden ein:");
+            Console.WriteLine("Gib den ersten Summanden ein: ");
             string ersterSummand = Console.ReadLine();
-            Console.Write("Bitte gib den zweiten Summanden ein:");
+            Console.WriteLine("Gib den zweiten Summanden ein: ");
             string zweiterSummand = Console.ReadLine();
 
-            // Wandel Text in Ganzzahlen
-            int ersterSummmandalsZahl = Convert.ToInt32(ersterSummand);
-            int zweiterSummandalsZahl = Convert.ToInt32(zweiterSummand);
+            //Umwandeln von Schrift in Zahlen
 
-            //Berechnung ausführen
-            int summe = ersterSummmandalsZahl + zweiterSummandalsZahl;
+            float ersterSummandalsZahl = Convert.ToSingle(ersterSummand);
+            float zweiterSummandalsZahl = Convert.ToSingle(zweiterSummand);
 
-            //Ausgabe
-            Console.WriteLine("Die Summe ist: {0}", summe);
+            // Addieren von den Summanden
+
+            float summe = ersterSummandalsZahl + zweiterSummandalsZahl;
+
+            //Ergebniss
+
+            Console.WriteLine("Die Summe beider zahlen ist: {0}", ersterSummandalsZahl + zweiterSummandalsZahl);
             Console.ReadLine();
 
+
+
+
+  
+
+
+
+          
+
+            
+
+
+            
 
         }
 
