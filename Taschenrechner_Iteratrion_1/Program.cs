@@ -8,38 +8,29 @@ namespace Taschenrechner_Iteratrion_1
         static void Main(string[] args)
 
         {
+            //UserStory Addieren zweier Summanden mit Gleitkommazahl
+            // Anforderung gib zwei Summanden ein
+
+
             Console.WriteLine("Gib den ersten Summanden ein: ");
             string ersterSummand = Console.ReadLine();
             Console.WriteLine("Gib den zweiten Summanden ein: ");
             string zweiterSummand = Console.ReadLine();
 
-            //Umwandeln von Schrift in Zahlen
+            // Wandel Text in Gleitkommazahlen
 
             float ersterSummandalsZahl = Convert.ToSingle(ersterSummand);
             float zweiterSummandalsZahl = Convert.ToSingle(zweiterSummand);
 
-            // Addieren von den Summanden
+            // Berechnung ausführen 
 
-            float summe = ersterSummandalsZahl + zweiterSummandalsZahl;
+            float Summe = ersterSummandalsZahl + zweiterSummandalsZahl;
 
-            //Ergebniss
+            // Ausgabe
 
-            Console.WriteLine("Die Summe beider zahlen ist: {0}", ersterSummandalsZahl + zweiterSummandalsZahl);
-            Console.ReadLine();
-
-
-
-
-  
-
-
-
-          
-
-            
-
-
-            
+            Console.WriteLine("Die Summe ist: {0}", ersterSummandalsZahl + zweiterSummandalsZahl);
+            Console.ReadLine(); 
+ 
 
         }
 
