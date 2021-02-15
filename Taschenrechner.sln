@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.808.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner_Iteratrion_1", "Taschenrechner_Iteratrion_1\Taschenrechner_Iteratrion_1.csproj", "{ECAB01D6-41F7-4280-8AF1-4DC90742E3D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner", "Taschenrechner_Iteratrion_1\Taschenrechner.csproj", "{ECAB01D6-41F7-4280-8AF1-4DC90742E3D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
