@@ -19,12 +19,12 @@ namespace Taschenrechner_Iteratrion_1
 
             // Wandel Text in Gleitkommazahlen
 
-            float ersterSummandalsZahl = Convert.ToSingle(ersterSummand);
-            float zweiterSummandalsZahl = Convert.ToSingle(zweiterSummand);
+            double ersterSummandalsZahl = Convert.ToDouble(ersterSummand);
+            double zweiterSummandalsZahl = Convert.ToDouble(zweiterSummand);
 
             // Berechnung ausführen 
 
-            float Summe = ersterSummandalsZahl + zweiterSummandalsZahl;
+            double Summe = ersterSummandalsZahl + zweiterSummandalsZahl;
 
             // Ausgabe
 
@@ -32,7 +32,7 @@ namespace Taschenrechner_Iteratrion_1
             Console.ReadLine(); 
  
 
-        }
+        }   
 
     }
 }
